@@ -15,7 +15,7 @@ const ItemList = () => (
         <li key={item.id}>
           <Link to={`/items/${item.id}`}>{item.name}</Link>
         </li>
-      ))}
+      ))} 
     </ul>
   </div>
 );
